@@ -66,26 +66,33 @@ console.log(a-- + --a + ++a - a++);
             // 5 + 3 + ++a - a++;
 // console.log(a-- + --a + ++a - a++); 
 
-var item1 = +prompt("Price of item 1");
-var item2 = +prompt("Price of item 2");
-var qty1 = +prompt("Quantity of Item 1");
-var qty2 = +prompt("Quantity of Item 2");
-var shippingCharges = 100;
-document.write("<br>Price of item 1 is " + item1 + "<br>Price of item 2 is " + item2 + "<br> Quantity of Item 1 is " + qty1 + "<br> Quantity of Item 2 is " + qty2 + "<br>Shipping Charges " + shippingCharges);
-var myTotalAmount = item1*qty1+item2*qty2+shippingCharges;
-document.write("<br>Total Cost is " + myTotalAmount+"<br>");
+// var item1 = +prompt("Price of item 1");
+// var item2 = +prompt("Price of item 2");
+// var qty1 = +prompt("Quantity of Item 1");
+// var qty2 = +prompt("Quantity of Item 2");
+// var shippingCharges = 100;
+// document.write("<br>Price of item 1 is " + item1 + "<br>Price of item 2 is " + item2 + "<br> Quantity of Item 1 is " + qty1 + "<br> Quantity of Item 2 is " + qty2 + "<br>Shipping Charges " + shippingCharges);
+// var myTotalAmount = item1*qty1+item2*qty2+shippingCharges;
+// document.write("<br>Total Cost is " + myTotalAmount+"<br>");
 
 
-var obtainMarks = +prompt("Enter Your Marks");
-var totalMarks = +prompt("Enter Total Marks");
-var percentage = obtainMarks / totalMarks * 100;
+// var obtainMarks = +prompt("Enter Your Marks");
+// var totalMarks = +prompt("Enter Total Marks");
+// var percentage = obtainMarks / totalMarks * 100;
 
-document.write(percentage);
+// document.write(percentage);
 
 
-document.write("<h3>Age Calculator</h3>");
+// document.write("<h3>Age Calculator</h3>");
 
-var currentYear = 2024;
-var age = Number(prompt("Enter Your Birth Year"));
-var myAge = currentYear-age;
-document.write("<br> Your Age is " + myAge);
+// var currentYear = 2024;
+// var age = Number(prompt("Enter Your Birth Year"));
+// var myAge = currentYear-age;
+// document.write("<br> Your Age is " + myAge);
+
+
+
+// let incVal = 3;
+// console.log(incVal++ + incVal++ - incVal++ + incVal++ - ++incVal + ++incVal - --incVal + incVal-- - incVal--);
+// console.log('b' + 'a' + + 'a' + 'a');
+// console.log(018 - 015);
