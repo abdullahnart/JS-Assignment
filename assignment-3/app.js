@@ -89,10 +89,3 @@ console.log(a-- + --a + ++a - a++);
 // var age = Number(prompt("Enter Your Birth Year"));
 // var myAge = currentYear-age;
 // document.write("<br> Your Age is " + myAge);
-
-
-
-// let incVal = 3;
-// console.log(incVal++ + incVal++ - incVal++ + incVal++ - ++incVal + ++incVal - --incVal + incVal-- - incVal--);
-// console.log('b' + 'a' + + 'a' + 'a');
-// console.log(018 - 015);
