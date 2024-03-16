@@ -35,20 +35,6 @@ document.write("<br>Welcome the class " + newUser + "<br>");
 // let num = 87;
 // console.log(!(num>=90));
 
-// let trafficSignal = prompt("Which Light You See").toLowerCase();
-
-// if(trafficSignal == 'red'){
-//     console.log("Stop");
-// }
-// else if (trafficSignal == 'yellow'){
-//     console.log("Ready to go");
-// }
-// else if (trafficSignal == 'green'){
-//     console.log("Go.....");
-// }
-// else{
-//     console.log("Please put Valid Color of Traffic Signal");
-// }
 
 const mathNumber = Number(prompt("Enter your Math Marks"));
 const englishNumber = Number(prompt("Enter your English Marks"));
