@@ -103,34 +103,6 @@ if(obtainedMarks <= totalMarks){
     document.write("Please Enter A Valid Marks, Total Marks is 300");
 }
 
-// let evenNum = parseInt(prompt("Enter a number to check 'EVEN' OR 'ODD'"));
-// if(evenNum%2==0){
-//     document.write(evenNum + " is Even Number");
-// }
-// else{
-//     document.write(evenNum + " is Odd Number");
-// }
 
-// let temperature = 25;
-// if (temperature > 30) {
-//   console.log("It's a hot day!");
-// } else if (temperature >= 20 && temperature <= 30) {
-//   console.log("It's a nice day!");
-// } else {
-//   console.log("It's cold outside!");
-// }
-
-
-// let marks = 75;
-// let grade = "";
-// if (marks >= 90) {
-//   console.log(grade = "A");
-// } else if (marks >= 80 && marks < 90) {
-//     console.log(grade = "B");
-// } else if (marks >= 70 && marks < 80) {
-//     console.log(grade = "C");
-// } else {
-//     console.log(grade = "D");
-// }
 
                 

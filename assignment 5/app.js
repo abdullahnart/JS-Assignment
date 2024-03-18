@@ -97,56 +97,94 @@
 // }
 
 
-const mathNumber = Number(prompt("Enter your Math Marks"));
-const englishNumber = Number(prompt("Enter your English Marks"));
-const urduNumber = Number(prompt("Enter your Urdu Marks"));
+// const mathNumber = Number(prompt("Enter your Math Marks"));
+// const englishNumber = Number(prompt("Enter your English Marks"));
+// const urduNumber = Number(prompt("Enter your Urdu Marks"));
 
-let obtainedMarks = mathNumber + englishNumber + urduNumber;
-let totalMarks = 300;
-let subjectMarks =100;
+// let obtainedMarks = mathNumber + englishNumber + urduNumber;
+// let totalMarks = 300;
+// let subjectMarks =100;
 
-let engPer = (englishNumber/subjectMarks) *100;
-let urduPer = (urduNumber/subjectMarks) *100;
-let mathPer = (mathNumber/subjectMarks) *100;
-let percentage = (obtainedMarks / totalMarks) * 100;
+// let engPer = (englishNumber/subjectMarks) *100;
+// let urduPer = (urduNumber/subjectMarks) *100;
+// let mathPer = (mathNumber/subjectMarks) *100;
+// let percentage = (obtainedMarks / totalMarks) * 100;
 
-if(obtainedMarks <= totalMarks){
-    if(percentage >= 80 && percentage <= 100){
-        document.write(`<h1>Marksheet</h1><table>
-                        <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
-                        <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
-                        <tr><td>Percentage</td><td>${percentage}%</td></tr>
-                        <tr><td>Grade</td><td>A-one</td></tr>
-                        <tr><td>Remarks</td><td>Excellent</td></tr>
-                        </table>`);
-    }
-    else if (percentage >= 70){
-        document.write(`<table>
-                        <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
-                        <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
-                        <tr><td>Percentage</td><td>${percentage}%</td></tr>
-                        <tr><td>Grade</td><td>A</td></tr>
-                        <tr><td>Remarks</td><td>Good</td></tr>
-                        </table>`);
-    }
-    else if (percentage >= 60){
-        document.write(`<table>
-                        <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
-                        <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
-                        <tr><td>Percentage</td><td>${percentage}%</td></tr>
-                        <tr><td>Grade</td><td>B</td></tr>
-                        <tr><td>Remarks</td><td>You need to improve</td></tr>
-                        </table>`);
-    }
-    else{
-        document.write(`<table>
-                        <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
-                        <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
-                        <tr><td>Percentage</td><td>${percentage}%</td></tr>
-                        <tr><td>Grade</td><td>Fail</td></tr>
-                        <tr><td>Remarks</td><td>Sorry You can't sit in this class</td></tr>
-                        </table>`);
-    }
-}else{
-    alert("Please Enter A Valid Marks, Total Marks is 300");
-}
+// if(obtainedMarks <= totalMarks){
+//     if(percentage >= 80 && percentage <= 100){
+//         document.write(`<h1>Marksheet</h1><table>
+//                         <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
+//                         <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
+//                         <tr><td>Percentage</td><td>${percentage}%</td></tr>
+//                         <tr><td>Grade</td><td>A-one</td></tr>
+//                         <tr><td>Remarks</td><td>Excellent</td></tr>
+//                         </table>`);
+//     }
+//     else if (percentage >= 70){
+//         document.write(`<table>
+//                         <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
+//                         <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
+//                         <tr><td>Percentage</td><td>${percentage}%</td></tr>
+//                         <tr><td>Grade</td><td>A</td></tr>
+//                         <tr><td>Remarks</td><td>Good</td></tr>
+//                         </table>`);
+//     }
+//     else if (percentage >= 60){
+//         document.write(`<table>
+//                         <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
+//                         <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
+//                         <tr><td>Percentage</td><td>${percentage}%</td></tr>
+//                         <tr><td>Grade</td><td>B</td></tr>
+//                         <tr><td>Remarks</td><td>You need to improve</td></tr>
+//                         </table>`);
+//     }
+//     else{
+//         document.write(`<table>
+//                         <tr><td>Total Marks</td><td>${totalMarks}</td></tr>
+//                         <tr><td>Marks Obtained</td><td>${obtainedMarks}</td></tr>
+//                         <tr><td>Percentage</td><td>${percentage}%</td></tr>
+//                         <tr><td>Grade</td><td>Fail</td></tr>
+//                         <tr><td>Remarks</td><td>Sorry You can't sit in this class</td></tr>
+//                         </table>`);
+//     }
+// }else{
+//     alert("Please Enter A Valid Marks, Total Marks is 300");
+// }
+
+// let number = Number(prompt("Enter a Number"));
+
+// if (number%3===0){
+//     document.write(number + " is divisible by 3.");
+// }else{
+//     document.write(number + " is not divisible by 3.");
+// }
+
+
+// let evenNum = parseInt(prompt("Enter a number to check 'EVEN' OR 'ODD'"));
+// if(evenNum%2==0){
+//     document.write(evenNum + " is Even Number");
+// }
+// else{
+//     document.write(evenNum + " is Odd Number");
+// }
+
+// let temperature = 25;
+// if (temperature > 30) {
+//   console.log("It's a hot day!");
+// } else if (temperature >= 20 && temperature <= 30) {
+//   console.log("It's a nice day!");
+// } else {
+//   console.log("It's cold outside!");
+// }
+
+
+
+let inputVal = parseInt(prompt("Enter 1st Number", 100));
+let inputVal2 = Number(prompt("Enter 2nd Number" ,10));
+
+document.write("<h1>Calculator </h1>The Division of ", inputVal ," by " ,inputVal2 ,"  is " , inputVal / inputVal2);
+document.write("<br>The Multiplication of ", inputVal ," by " ,inputVal2 ,"  is " , inputVal * inputVal2);
+document.write("<br>The Addition of ", inputVal ," by " ,inputVal2 ,"  is " , inputVal + inputVal2);
+document.write("<br>The Subtraction of ", inputVal ," by " ,inputVal2 ,"  is " , inputVal - inputVal2);
+document.write("<br>The Modulus of ", inputVal ," by " ,inputVal2 ,"  is " , inputVal % inputVal2);
+
