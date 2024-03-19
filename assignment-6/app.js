@@ -67,4 +67,42 @@
 // }
 
 
+// let userPass = prompt("Enter a Password");
+// let myPass = 12345;
 
+// if (userPass){
+//     if(userPass==myPass){
+//         console.log("Correct!");
+//     }
+//     else{
+//         console.log("Incorrect password");
+//     }
+// }else{
+//     console.log("Please enter your password");
+// }
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// console.log(greeting = "Good day");
+// }
+// else{
+// console.log(greeting = "Good Evening");
+// }
+
+let time = parseInt(prompt("Enter a time"));
+
+if(time >= 0 && time < 12 ){
+console.log("Good Morning")
+}else if (time >= 12 && time < 17 ){
+    console.log("Good Afternoon");   
+}
+else if (time >= 17 && time < 21 ){
+    console.log("Good Evening");   
+}
+else if (time >= 21 && time <=   24 ){
+    console.log("Good Night");   
+}
+else{
+    console.log("Please Enter correct time");
+}
