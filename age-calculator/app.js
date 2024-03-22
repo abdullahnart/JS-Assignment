@@ -6,5 +6,5 @@ function ageCalculator(){
     let age = currentYear - birthYear;
     swal.fire(`Your Age is ${age}`);
 }
-
 ageCalculator();
+
