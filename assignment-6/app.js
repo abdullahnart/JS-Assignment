@@ -90,19 +90,62 @@
 // console.log(greeting = "Good Evening");
 // }
 
-let time = parseInt(prompt("Enter a time"));
+// let time = parseInt(prompt("Enter a time"));
 
-if(time >= 0 && time < 12 ){
-console.log("Good Morning")
-}else if (time >= 12 && time < 17 ){
-    console.log("Good Afternoon");   
+// if(time >= 0 && time < 12 ){
+// console.log("Good Morning")
+// }else if (time >= 12 && time < 17 ){
+//     console.log("Good Afternoon");   
+// }
+// else if (time >= 17 && time < 21 ){
+//     console.log("Good Evening");   
+// }
+// else if (time >= 21 && time <=   24 ){
+//     console.log("Good Night");   
+// }
+// else{
+//     console.log("Please Enter correct time");
+// }
+
+// Function without Parameter
+function greaterNumber(){
+let num1 = +prompt("Enter You 1st Number");
+let num2 = +prompt("Enter You 2nd Number");
+let num3 = +prompt("Enter You 3rd Number");
+    if (num1 > num2 && num1 > num3){
+        console.log(`Condition 1: Number is ${num1} greater than Number ${num2} and ${num3}`);
+    }
+    else if (num2 > num1 && num2 > num3){
+        console.log(`Condition 2: Number is ${num2} greater  than Number ${num1} and ${num3}`);
+    }
+    else{
+        console.log(`Condition 3: ${num3} is greater than all numbers`);
+    }
 }
-else if (time >= 17 && time < 21 ){
-    console.log("Good Evening");   
+
+// greaterNumber();
+
+// Function with Parameters 
+
+// agr hmy ismy condition lagani ho k sary numbers ya 2 numbers bhi same ho tww message change hona chaiye tww kese hoga
+
+function findGreaterNumber(a,b,c){
+    if (a > b && a > c){
+        console.log(`Condition 1: Number is ${a} greater than Number ${b} and ${c}`);
+    }
+    else if (b > a && b > c){
+        console.log(`Condition 2: Number is ${b} greater than Number ${a} and ${c}`);
+    }
+    else if (a === b && b === c || a === c && b === c ){
+        console.log(`Condition 2: All numbers are same`);
+    }
+    else{
+        console.log(`Condition 3: ${c} is greater than all numbers`);
+    }
 }
-else if (time >= 21 && time <=   24 ){
-    console.log("Good Night");   
-}
-else{
-    console.log("Please Enter correct time");
-}
+
+let number1 = +prompt("Enter You 1st Number");
+let number2 = +prompt("Enter You 2nd Number");
+let number3 = +prompt("Enter You 3rd Number");
+
+findGreaterNumber(number1,number2,number3);

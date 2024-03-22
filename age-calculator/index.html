@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+  </head>
+  <style>
+    body {
+      background-color: indianred;
+      height: 100vh;
+    }
+    .calculator {
+      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
+      height: 100vh;
+    }
+    .calculator h1,
+    .calculator div {
+      width: 100%;
+      text-align: center;
+    }
+    .btn button {
+      background: #000;
+      border: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      color: #fff;
+    }
+  </style>
+  <body>
+    <div class="calculator">
+      <h1>Age Calculator</h1>
+      <div class="btn"><button onclick="ageCalculator();">Calculate Age</button></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
