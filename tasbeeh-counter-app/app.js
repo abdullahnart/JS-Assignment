@@ -10,3 +10,5 @@ function reset(){
     let reset = document.getElementById('counter');
     reset.innerText = counter;    
 }
+
+
