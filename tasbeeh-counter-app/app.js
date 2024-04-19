@@ -15,4 +15,3 @@ function countReset(){
     let resetVal = document.querySelector(".add-counter");
     resetVal.innerHTML = `<p>${count}</p>`;
 }
-
