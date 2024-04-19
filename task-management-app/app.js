@@ -12,8 +12,8 @@ function userLogin() {
       if (userPass.value === databasePassword) {
         let userEmailData = userEmail.value;
         let userPassData = userPass.value;
-        console.log(`${userEmailData}\n${userPassData}`);
-        let list = document.querySelector("#user_list");
+        // console.log(`${userEmailData}\n${userPassData}`);
+        // let list = document.querySelector("#user_list");
         userEmail.value = "";
         userPass.value = "";
         // list.innerHTML += `<div>${userEmailData}</div><div>${userPassData}</div>`;
@@ -27,7 +27,7 @@ function userLogin() {
             // Check if the "OK" button was clicked
             if (result.isConfirmed) {
               // Your code to handle the "OK" button click goes here
-              window.location.href = "welcome.html";
+            //   window.location.href = "welcome.html";
             }
           });
         // window.location.href = "welcome.html";
@@ -51,21 +51,7 @@ function userLogin() {
   //     window.location.href = "welcome.html";
   //   } else {
   //     Swal.fire("Invalid Email and Password");
-  //   }
-  
-
-//   console.log(userList);
+  //   }  
 }
 
-// let userEmailVal = userEmail.value;
-// let userPassVal = userPass.value;
-
-
-
-
-// function userListFun(){
-//     let list
-//     userList.innerHTML += `<li>${userList}</li>`;
-//     console.log(userList);
-// }
 

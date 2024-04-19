@@ -136,11 +136,20 @@ function findGreaterNumber(a,b,c){
     else if (b > a && b > c){
         console.log(`Condition 2: Number is ${b} greater than Number ${a} and ${c}`);
     }
-    else if (a === b && b === c || a === c && b === c ){
-        console.log(`Condition 2: All numbers are same`);
+    else if (a === b && b === c && a === c ){
+        console.log(`Condition 3: All numbers are same`);
+    }
+    else if (a === b){
+        console.log(`Condition 4: Number is c ${c} different but Number a ${a} and b ${b} are same`);
+    }
+    else if (b === c){
+        console.log(`Condition 5: Number is a ${a} different but Number b ${b} and c ${c} are same`);
+    }
+    else if (a === c){
+        console.log(`Condition 6: Number is b ${b} different but Number a ${a} and c ${c} are same`);
     }
     else{
-        console.log(`Condition 3: ${c} is greater than all numbers`);
+        console.log(`Condition 7: ${c} is greater than all numbers`);
     }
 }
 
