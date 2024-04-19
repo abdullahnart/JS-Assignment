@@ -53,5 +53,3 @@ function userLogin() {
   //     Swal.fire("Invalid Email and Password");
   //   }  
 }
-
-
