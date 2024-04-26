@@ -21,3 +21,31 @@ let mixArray = ["Usama","Farhan",98,"Jamal",true,45,null,false,undefined];
 let qualifications = ["SSC","HSC","BCS","BS","BCOM","MS","M. Phil.","PhD"];
 console.log(qualifications);
 
+let students = ['Michael','John','Tony'];
+let studentMarks = [320,230,480];
+let totalMarks = 500;
+
+document.write(`Score of ${students[0]} is ${studentMarks[0]}. Percentage: ${studentMarks[0]/totalMarks*100}% <br>`);
+document.write(`Score of ${students[1]} is ${studentMarks[1]}. Percentage: ${studentMarks[1]/totalMarks*100}%<br>`);
+document.write(`Score of ${students[2]} is ${studentMarks[2]}. Percentage: ${studentMarks[2]/totalMarks*100}%<br>`);
+
+let colorNames = ["Red","Green","Blue","Yellow","Orange"]
+document.write("Original Array "+colorNames+"<br/>");
+
+let userColor = prompt("Enter A color in Start","Black");
+colorNames.unshift(userColor);
+document.write(colorNames+" (Add Color in Start)  <br/>");
+
+colorNames.shift(userColor);
+colorNames.push(userColor);
+document.write(colorNames+" (Add Color in End)  <br/>");
+
+let userColor2 = prompt("Enter A color 2 in Start","White");
+colorNames.unshift(userColor+","+userColor2);
+document.write(colorNames+" (Add Color in Start)  <br/>");
+
+colorNames.shift(userColor+","+userColor2);
+document.write(colorNames+" (Add Color in Start)  <br/>");
+
+colorNames.pop(userColor+","+userColor2);
+document.write(colorNames+" (Add Color in Start)  <br/>");
