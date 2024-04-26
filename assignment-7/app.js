@@ -45,7 +45,30 @@ colorNames.unshift(userColor+","+userColor2);
 document.write(colorNames+" (Add Color in Start)  <br/>");
 
 colorNames.shift(userColor+","+userColor2);
-document.write(colorNames+" (Add Color in Start)  <br/>");
+document.write(colorNames+" (Remove Color from Start)  <br/>");
 
 colorNames.pop(userColor+","+userColor2);
-document.write(colorNames+" (Add Color in Start)  <br/>");
+document.write(colorNames+" (Remove Color from End)  <br/>");
+
+
+colorNames.splice(4,0,"Purple","Gray");
+document.write(colorNames+" (Splice)  <br/>");
+
+colorNames.splice(2,1);
+document.write(colorNames+" (Splice)  <br/>");
+
+studentMarks.sort();
+document.write(studentMarks+" (Sorting)  <br/>");
+
+
+let cities = ["Karachi","Lahore","Islamabad","Quetta"];
+let selectedCities = cities.slice(1,3);
+
+document.write(selectedCities+" (Slice)  <br/>");
+
+let arra = ["This ", " is ", " my ", " cat "];
+document.write(arra.join(" "));
+
+
+let companies = ["Apple","Samsung","Oppo","Nokia"];
+document.write(`<br><select><option>${companies[0]}</option><option>${companies[1]}</option><option>${companies[2]}</option><option>${companies[3]}</option></select>`);
