@@ -34,7 +34,7 @@ for(let i=1; i<=15; i++){
 }
 
 document.write("Reverse Counting <br>");
-for(let i=10; i>1; i--){
+for(let i=10; i>=1; i--){
     document.write(i+"<br>");
 }
 
@@ -89,3 +89,40 @@ for (let i=0; i < array.length; i++) {
 }
 
 console.log(largest);
+
+
+// Method
+// join use for array
+// split use for string
+// reverse use for array
+// indexOf use for string and array both
+// last index Of use for string and array both
+// replace / replaceAll / replace global
+// charAt use for string
+
+
+
+
+let join = ["asd","ASd","ASdas",324,245,true]
+console.log(join.join('.'));
+
+let val = "Abdullah Naseem Naseem"
+let splitVal = val.split(' ')
+console.log(splitVal[0],splitVal[1]);
+
+let reverse = ["asd","ASd","ASdas",324,245,true]
+console.log(reverse.reverse());
+
+console.log(join.indexOf(324));
+
+console.log(val.replace("Naseem","Khan"));
+
+console.log(val.replaceAll("Naseem","Khan")); // OR 
+console.log(val.replace(/Naseem/g,"Khan")); 
+
+console.log(val.charAt(9)); 
+
+
+
+
+
