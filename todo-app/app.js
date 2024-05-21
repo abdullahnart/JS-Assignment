@@ -12,6 +12,6 @@ function todoApp(){
         para.innerText += `${text.value} \n`;
         date.innerText += `${getDate} \n`;
     }
-    text.value = ``;
+    text.value = '';
 
 }
