@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-wrapper {
+    width: 8%;
+}
+
+@media screen and (max-width:767px){
+    .img-wrapper {
+        width: 20%;
+    }
+}
