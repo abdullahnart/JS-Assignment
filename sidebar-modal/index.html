@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar and Modal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="menu" onclick="menuSidebar();">🟰</div>
+        <div class="menu-wrapper">
+        <div class="off-canvas">
+            <div class= "close" onclick="closeMenu();">❌</div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="modal"><button onclick="openModal();">Open Modal</button></div>
+    <div class="modal-container" onclick="container();">
+        <div class="modal-wrapper" onclick="openModalClick();">
+            <div class= "close" onclick="closeModal();">❌</div>
+            <form action="">
+                <div class="form-group">
+                    <label>Name</label><br>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="form-group">
+                    <label>Email</label><br>
+                    <input type="email" name="" id="">
+                </div>
+                <div class="form-group">
+                    <label>Phone</label><br>
+                    <input type="tel" name="" id="">
+                </div>
+                <div class="form-group">
+                    <label>Submit</label><br>
+                    <input type="submit" name="" id="">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

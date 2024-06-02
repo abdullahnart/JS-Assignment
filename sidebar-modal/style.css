@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    background: skyblue;
+    height: 100vh;
+}
+
+.off-canvas {
+    width: 300px;
+    background: #fff;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    padding-right: 20px;
+    padding-top: 10px;
+    transition: .5s ease-in-out;
+}
+.close {
+    text-align: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+.modal {
+    text-align: center;
+}
+.menu {
+    cursor: pointer;
+    padding: 30px;
+    font-size: 30px;
+    width: max-content;
+}
+button {
+    background: #785DC8;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-wrapper {
+    background: #36a7d5;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 30%;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100vh;
+    background: #0000009e;
+    position: absolute;
+    top: 0px;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.form-group > input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 2px;
+    border: 1px solid #0f759e;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background: #0f759e;
+    color: #fff;
+}
+
+.form-group label {
+    font-size: 18px;
+}
