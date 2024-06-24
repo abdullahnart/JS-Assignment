@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.main-wrapper{
+    width: 100%;
+    background-color: #edf5ff;
+    padding: 0px 0px 50px 0px;
+}
+.heading-wrapper{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+.heading-wrapper h1{
+    text-decoration: double underline;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    border-radius: 20px;
+}
+.card .img-wrapper{
+    width: 200px;
+    height: 150px;
+    margin: 5px auto;
+}
+.img-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    margin-bottom: 5px;
+}
+.card-text strong {
+    margin-right: 10px;
+    font-weight: 600;
+}
+.btn-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-wrapper .btn{
+    width: 95%;
+    background : linear-gradient(360deg,#7f19a0,#c82d8c)!important;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
