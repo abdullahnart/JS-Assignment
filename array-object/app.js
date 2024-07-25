@@ -243,7 +243,34 @@ let mobilePhones = [
   },
 ];
 
-for (let i in mobilePhones) {
+// for (let i in mobilePhones) {
+//     // let keys = Object.keys(mobilePhones[i]);
+//     // console.log(keys.modelName);
+//   card_wrapper.innerHTML += `
+//     <div class="card" style="width: 18rem;">
+//       <div class="img-wrapper">
+//         <img src="${mobilePhones[i].image}" class="card-img-top" alt="${mobilePhones[i].modelName}">
+//       </div>
+//       <div class="card-body">
+//         <h5 class="card-title">${mobilePhones[i].modelName}</h5>
+//         <p class="card-text"><strong>Brand:</strong> ${mobilePhones[i].brand}</p>
+//         <p class="card-text"><strong>Camera:</strong> ${mobilePhones[i].camera}</p>
+//         <p class="card-text"><strong>Processor:</strong> ${mobilePhones[i].processor}</p>
+//         <p class="card-text"><strong>Storage:</strong> ${mobilePhones[i].storage}</p>
+//         <p class="card-text"><strong>Release Year:</strong> ${mobilePhones[i].releaseYear}</p>
+
+//         <div class="btn-wrapper">
+//         <a href="#" class="btn">Checkout Details</a>
+//         </div>
+//       </div>
+//     </div>
+//   `;
+// }
+
+
+for (let i = 0; i < mobilePhones.length; i++) {
+    let keys = Object.keys(mobilePhones[i]);
+    console.log(keys);
   card_wrapper.innerHTML += `
     <div class="card" style="width: 18rem;">
       <div class="img-wrapper">
